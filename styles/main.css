@@ -258,6 +258,16 @@
   transition: 0.5s;
 }
 
+.ex {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.ex img {
+  margin: 5px;
+  object-fit: auto;
+}
+
 /*for blog2*/
 
 .main-blog2 {
@@ -270,6 +280,68 @@
   position: relative;
 }
 
+.text-box-b2 {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-box-b2 h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b2 h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b2 h4 {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b2 p {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.text-box-b2 a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}
+
+.text-box-b2 a:hover {
+  color: #ff7200;
+  transition: 0.5s;
+}
+
 /*for blog3*/
 
 .main-blog3 {
@@ -280,6 +352,57 @@
   background-position: center;
   background-size: contain;
   position: relative;
+}
+
+.text-box-b3 {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-box-b3 h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b3 h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b3 p {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.text-box-b3 a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}
+
+.text-box-b3 a:hover {
+  color: #ff7200;
+  transition: 0.5s;
 }
 
 /*for about me*/
