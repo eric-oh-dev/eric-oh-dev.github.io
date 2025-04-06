@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*for Home*/
+
+.main-home {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari1.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu {
+  flex: 1;
+  text-align: right;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial;
+  transition: 0.5s;
+}
+
+.menu ul li a:hover {
+  color: #ff7200;
+}
+
+.text-box {
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h2 {
+  font-size: 70px;
+}
+
+.text-box p {
+  margin: 10px 0 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.cat-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 20px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.cat-button:hover {
+  border: 1px solid #ff7200;
+  background: #ff7200;
+  transition: 0.5s;
+}
+
+.navbar .fa {
+  display: none;
+}
+
+/*for my-blog*/
+
+.main-blog-home {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari5.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.blog-entry {
+  margin-right: 5%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #00000060;
+}
+
+.blog-entry h2 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.blog-entry h2 a:hover {
+  color: #ff7200;
+  transition: 0.5s;
+}
+
+.blog-entry h3 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*for blog0*/
+
+.main-blog0 {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari2.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.text-box1 {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-box1 h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box1 h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box1 p {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.text-box1 a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}
+
+.text-box1 a:hover {
+  color: #ff7200;
+  transition: 0.5s;
+}
+
+/*for blog1*/
+
+.main-blog1 {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari3.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.text-box-b1 {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-box-b1 h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b1 h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b1 p {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.text-box-b1 a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}
+
+.text-box-b1 a:hover {
+  color: #ff7200;
+  transition: 0.5s;
+}
+
+/*for blog2*/
+
+.main-blog2 {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari7.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+/*for blog3*/
+
+.main-blog3 {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari8.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+/*for about me*/
+
+.main-am {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari4.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.text-box-am {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.text-box-am h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: white;
+}
+
+.text-box-am p {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  color: white;
+}
+
+.github-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 20px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.github-button:hover {
+  border: 1px solid #ff7200;
+  background: #ff7200;
+  transition: 0.5s;
+}
+
+.intro {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.intro img {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  object-fit: cover;
+}
+
+/*for cats*/
+
+.main-cats {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari6.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.cat-pic {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5%;
+  align-items: center;
+}
+
+.cat-pic img {
+  width: 500px;
+  height: 500px;
+  margin: 5px;
+  object-fit: cover;
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  .text-box h2 {
+    font-size: 40px;
+  }
+  .cat-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 426px) {
+  .text-box h2 {
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .menu ul li {
+    padding: 2px 4px;
+  }
+  .menu ul li a {
+    font-size: 11px;
+  }
+  .main-blog {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+      url(../images/nari8.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .main-am {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+      url(../images/nana2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .cat-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 10px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+}

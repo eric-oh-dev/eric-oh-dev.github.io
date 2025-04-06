@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eric's Blog - Stories and Legends</title>
+  </head>
+
+  <body>
+    <div class="main-blog1">
+      <div class="navbar">
+        <h1 class="logo">My Blog</h1>
+        <div class="menu">
+          <ul>
+            <li><a href="../home.html">Home</a></li>
+            <li><a href="my-blog-home.html">My Blog</a></li>
+            <li><a href="../about-me.html">About Me</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-box-b1">
+        <h2>What Does It Mean To Display Inline VS Inline Blocks?</h2>
+        <h3>
+          The difference between inline and inline-block in CSS is subtle but
+          important when you're styling elements on a webpage.
+        </h3>
+        <h3>10 November 2010</h3>
+
+        <p>
+          When an element is set to display: inline, it behaves like text in a
+          sentence—it flows horizontally with the rest of the content and
+          doesn’t break onto a new line.
+        </p>
+        <p>Display: incline</p>
+        <p>
+          - The element does not start on a new line. <br />
+          - It respects the flow of text, like a span, a, or strong. <br />
+          - Width and height can't be set—they are ignored. <br />
+          - Margins and paddings are only respected horizontally (left and
+          right), not vertically (top and bottom may not work as expected).
+        </p>
+        <p>Example</p>
+        <img src="../images/ex-inline.png" alt="ex1" />
+        <p>Even if you try to give it a width, it will be ignored.</p>
+        <br />
+        <p>Display: inline-block</p>
+        <p>
+          - The element still doesn't start on a new line, like inline. <br />
+          - But you can set width and height—this is a key difference! <br />
+          - All margins and paddings work as expected (top, bottom, left,
+          right). <br />
+          - It's useful when you want an element to behave like text but still
+          control its box dimensions.
+        </p>
+        <p>Example</p>
+        <img src="../images/ex-inline-block.png" alt="ex2" />
+        <p>Now the width will be respected.</p>
+        <p>Quick Summary</p>
+        <img src="../images/ex-table.png" alt="ex3" />
+        <br />
+        <br />
+        <a href="my-blog-home.html">Back to My Blog</a>
+      </div>
+    </div>
+  </body>
+</html>
