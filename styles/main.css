@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/*for Home*/
+/* -- for Home -- */
 
 .main-home {
   min-height: 100vh;
@@ -97,7 +97,7 @@
   display: none;
 }
 
-/*for my-blog*/
+/* -- for my-blog -- */
 
 .main-blog-home {
   min-height: 100vh;
@@ -132,7 +132,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-/*for blog0*/
+/* -- for blog0 -- */
 
 .main-blog0 {
   min-height: 100vh;
@@ -195,7 +195,7 @@
   transition: 0.5s;
 }
 
-/*for blog1*/
+/* -- for blog1 -- */
 
 .main-blog1 {
   min-height: 100vh;
@@ -268,7 +268,7 @@
   object-fit: auto;
 }
 
-/*for blog2*/
+/* -- for blog2 -- */
 
 .main-blog2 {
   min-height: 100vh;
@@ -342,7 +342,7 @@
   transition: 0.5s;
 }
 
-/*for blog3*/
+/* -- for blog3 -- */
 
 .main-blog3 {
   min-height: 100vh;
@@ -384,6 +384,17 @@
   unicode-bidi: isolate;
 }
 
+.text-box-b3 h4 {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
 .text-box-b3 p {
   display: block;
   font-size: 1.25em;
@@ -405,7 +416,70 @@
   transition: 0.5s;
 }
 
-/*for about me*/
+/* -- for blog4 -- */
+
+.main-blog4 {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nana2.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.text-box-b4 {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-box-b4 h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b4 h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b4 p {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.text-box-b4 a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}
+
+.text-box-b4 a:hover {
+  color: #ff7200;
+  transition: 0.5s;
+}
+
+/* -- for about me -- */
 
 .main-am {
   min-height: 100vh;
@@ -478,7 +552,7 @@
   object-fit: cover;
 }
 
-/*for cats*/
+/* -- for cats -- */
 
 .main-cats {
   min-height: 100vh;
@@ -507,7 +581,7 @@
   object-fit: cover;
 }
 
-/* tablets */
+/* -- tablets -- */
 @media only screen and (max-width: 919px) {
   .text-box h2 {
     font-size: 40px;
@@ -525,7 +599,7 @@
   }
 }
 
-/* phones */
+/* -- phones -- */
 @media only screen and (max-width: 426px) {
   .text-box h2 {
     font-size: 20px;
