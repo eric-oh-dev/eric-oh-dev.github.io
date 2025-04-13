@@ -458,6 +458,17 @@
   unicode-bidi: isolate;
 }
 
+.text-box-b4 h4 {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
 .text-box-b4 p {
   display: block;
   font-size: 1.25em;
@@ -477,6 +488,16 @@
 .text-box-b4 a:hover {
   color: #ff7200;
   transition: 0.5s;
+}
+
+.ex2 {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.ex2 img {
+  margin: 5px;
+  object-fit: auto;
 }
 
 /* -- for about me -- */
