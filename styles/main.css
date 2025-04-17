@@ -500,6 +500,80 @@
   object-fit: auto;
 }
 
+/* -- for blog5 -- */
+
+.main-blog5 {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+    url(../images/nari4.png);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.text-box-b5 {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-box-b5 h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b5 h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b5 h4 {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.text-box-b5 p {
+  display: block;
+  font-size: 1.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.text-box-b5 a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: black;
+}
+
+.text-box-b5 a:hover {
+  color: #ff7200;
+  transition: 0.5s;
+}
+
 /* -- for about me -- */
 
 .main-am {
